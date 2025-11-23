@@ -1,0 +1,31 @@
+
+test_shop_api.py::TestShopAPI::test_add_product[product_data0] PASSED[  7%]
+test_shop_api.py::TestShopAPI::test_add_product[product_data1] FAILED[ 15%]
+test_shop_api.py::TestShopAPI::test_add_product[product_data2] PASSED[ 23%]
+test_shop_api.py::TestShopAPI::test_add_product_with_all_fields FAILED[ 30%]
+test_shop_api.py::TestShopAPI::test_get_all_products PASSED[ 38%]
+test_shop_api.py::TestShopAPI::test_edit_product FAILED[ 46%]
+test_shop_api.py::TestShopAPI::test_delete_product PASSED[ 53%]
+test_shop_api.py::TestShopAPI::test_add_product_minimal_fields FAILED[ 61%]
+test_shop_api.py::TestShopAPI::test_add_product_with_zero_price FAILED[ 69%]
+test_shop_api.py::TestShopAPI::test_edit_nonexistent_product PASSED[ 76%]
+test_shop_api.py::TestShopAPI::test_delete_nonexistent_product PASSED[ 84%]
+test_shop_api.py::TestShopAPI::test_alias_generation PASSED [92%]
+test_shop_api.py::TestShopAPI::test_add_multiple_products_same_title PASSED
+
+
+
+
+
+============================================================================================================
+============ short test summary info ======================================================================
+==================================================
+FAILED test_shop_api.py::TestShopAPI::test_add_product[product_data1] - assert 1 == 0
+FAILED test_shop_api.py::TestShopAPI::test_add_product_with_all_fields - KeyError: 'old_price'
+FAILED test_shop_api.py::TestShopAPI::test_edit_product - KeyError: 'id'
+FAILED test_shop_api.py::TestShopAPI::test_add_product_minimal_fields - KeyError: 'title'
+FAILED test_shop_api.py::TestShopAPI::test_add_product_with_zero_price - KeyError: 'price'
+========================================================================================================
+======== 5 failed, 8 passed in 84.64s (0:01:24) =========================================================
+========================================================
+PS C:\Users\mrLogic\PycharmProjects\kk\lab4>

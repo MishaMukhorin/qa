@@ -1,0 +1,15 @@
+{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-11-23T14:46:29.364Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2025-11-23T14:46:29.413Z"}
+{"level":"info","message":"[http:3000] Open for business...","timestamp":"2025-11-23T14:46:29.419Z"}
+{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2025-11-23T14:46:33.797Z"}
+{"level":"info","message":"[http:3000] ::1:54448 => GET /rate/USD/EUR","timestamp":"2025-11-23T14:46:39.907Z"}
+{"level":"info","message":"[http:3000] ::1:54449 => GET /favicon.ico","timestamp":"2025-11-23T14:46:39.990Z"}
+{"level":"info","message":"[http:3000] no predicate match, using default response","timestamp":"2025-11-23T14:46:39.990Z"}
+{"level":"info","message":"[http:3000] ::1:54452 => GET /favicon.ico","timestamp":"2025-11-23T14:46:39.995Z"}
+{"level":"info","message":"[http:3000] no predicate match, using default response","timestamp":"2025-11-23T14:46:39.995Z"}
+{"level":"error","message":"[mb:2525] ::1:54450 transmission error X=> {\"code\":\"ERR_HTTP_REQUEST_TIMEOUT\"}","timestamp":"2025-11-23T14:47:59.371Z"}
+{"level":"info","message":"[http:3000] ::1:54535 => GET /rate/EUR/RUB","timestamp":"2025-11-23T14:49:15.952Z"}
+{"level":"info","message":"[http:3000] no predicate match, using default response","timestamp":"2025-11-23T14:49:15.953Z"}
+{"level":"info","message":"[http:3000] ::1:54536 => GET /rate/EUR/RUB","timestamp":"2025-11-23T14:49:36.002Z"}
+{"level":"info","message":"[http:3000] no predicate match, using default response","timestamp":"2025-11-23T14:49:36.002Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2025-11-23T14:50:24.528Z"}
