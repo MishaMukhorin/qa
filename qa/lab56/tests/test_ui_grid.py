@@ -25,7 +25,8 @@ class TestUIGrid:
                 "autofill.profile_enabled": False,
                 "autofill.credit_card_enabled": False,
                 "autofill.enabled": False,
-                "password_manager_enabled": False
+                "password_manager_enabled": False,
+                "profile.password_manager_leak_detection": False
             })
             options.add_experimental_option("excludeSwitches", ["enable-automation", "enable-logging"])
             options.add_experimental_option('useAutomationExtension', False)
